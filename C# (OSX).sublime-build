@@ -1,0 +1,4 @@
+{
+  "cmd": ["/Users/tim/Library/Application Support/Sublime Text 2/Packages/C#/cs_build", "$file_path", "$file"],
+  "selector": "source.cs"
+}

@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+if ARGV.length != 2
+  puts "Wrong number of arguments."
+end
+
+Dir.chdir(ARGV.first)
+system("mcs #{ARGV.last}")
+system("mono #{ARGV.last.sub(/cs$/,'exe')}")
